@@ -4376,11 +4376,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\CinemaDemoModels.csproj",
-      "projectName": "CinemaDemoModels",
-      "projectPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\CinemaDemoModels.csproj",
+      "projectUniqueName": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\CinemaProjectModels.csproj",
+      "projectName": "CinemaProjectModels",
+      "projectPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\CinemaProjectModels.csproj",
       "packagesPath": "C:\\Users\\Romuald\\.nuget\\packages\\",
-      "outputPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\obj\\",
+      "outputPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

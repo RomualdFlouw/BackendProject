@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoAPI\\CinemaDemoAPI.csproj": {}
+    "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoAPI\\CinemaDemoAPI.csproj": {}
   },
   "projects": {
-    "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoAPI\\CinemaDemoAPI.csproj": {
+    "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoAPI\\CinemaDemoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoAPI\\CinemaDemoAPI.csproj",
+        "projectUniqueName": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoAPI\\CinemaDemoAPI.csproj",
         "projectName": "CinemaDemoAPI",
-        "projectPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoAPI\\CinemaDemoAPI.csproj",
+        "projectPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoAPI\\CinemaDemoAPI.csproj",
         "packagesPath": "C:\\Users\\Romuald\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoAPI\\obj\\",
+        "outputPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\CinemaDemoModels.csproj": {
-                "projectPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\CinemaDemoModels.csproj"
+              "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\CinemaDemoModels.csproj": {
+                "projectPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\CinemaDemoModels.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\CinemaDemoModels.csproj": {
+    "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\CinemaDemoModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\CinemaDemoModels.csproj",
+        "projectUniqueName": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\CinemaDemoModels.csproj",
         "projectName": "CinemaDemoModels",
-        "projectPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\CinemaDemoModels.csproj",
+        "projectPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\CinemaDemoModels.csproj",
         "packagesPath": "C:\\Users\\Romuald\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\obj\\",
+        "outputPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -1,0 +1,9 @@
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoModels\bin\Debug\netcoreapp2.2\CinemaProjectModels.deps.json
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoModels\bin\Debug\netcoreapp2.2\CinemaProjectModels.dll
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoModels\bin\Debug\netcoreapp2.2\CinemaProjectModels.pdb
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoModels\obj\Debug\netcoreapp2.2\CinemaProjectModels.csprojAssemblyReference.cache
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoModels\obj\Debug\netcoreapp2.2\CinemaProjectModels.csproj.CoreCompileInputs.cache
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoModels\obj\Debug\netcoreapp2.2\CinemaProjectModels.AssemblyInfoInputs.cache
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoModels\obj\Debug\netcoreapp2.2\CinemaProjectModels.AssemblyInfo.cs
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoModels\obj\Debug\netcoreapp2.2\CinemaProjectModels.dll
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoModels\obj\Debug\netcoreapp2.2\CinemaProjectModels.pdb

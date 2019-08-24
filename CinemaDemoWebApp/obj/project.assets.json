@@ -4721,7 +4721,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "CinemaDemoModels/1.0.0": {
+      "CinemaProjectModels/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
@@ -4729,10 +4729,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6"
         },
         "compile": {
-          "bin/placeholder/CinemaDemoModels.dll": {}
+          "bin/placeholder/CinemaProjectModels.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CinemaDemoModels.dll": {}
+          "bin/placeholder/CinemaProjectModels.dll": {}
         }
       }
     }
@@ -12945,15 +12945,15 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "CinemaDemoModels/1.0.0": {
+    "CinemaProjectModels/1.0.0": {
       "type": "project",
-      "path": "../CinemaDemoModels/CinemaDemoModels.csproj",
-      "msbuildProject": "../CinemaDemoModels/CinemaDemoModels.csproj"
+      "path": "../CinemaDemoModels/CinemaProjectModels.csproj",
+      "msbuildProject": "../CinemaDemoModels/CinemaProjectModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "CinemaDemoModels >= 1.0.0",
+      "CinemaProjectModels >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -12968,11 +12968,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoWebApp\\CinemaDemoWebApp.csproj",
-      "projectName": "CinemaDemoWebApp",
-      "projectPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoWebApp\\CinemaDemoWebApp.csproj",
+      "projectUniqueName": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoWebApp\\CinemaProjectWebApp.csproj",
+      "projectName": "CinemaProjectWebApp",
+      "projectPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoWebApp\\CinemaProjectWebApp.csproj",
       "packagesPath": "C:\\Users\\Romuald\\.nuget\\packages\\",
-      "outputPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoWebApp\\obj\\",
+      "outputPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -12993,8 +12993,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\CinemaDemoModels.csproj": {
-              "projectPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\CinemaDemoModels.csproj"
+            "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\CinemaProjectModels.csproj": {
+              "projectPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\CinemaProjectModels.csproj"
             }
           }
         }

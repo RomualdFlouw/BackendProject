@@ -1,0 +1,17 @@
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoAPI\bin\Debug\netcoreapp2.2\CinemaProjectApi.deps.json
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoAPI\bin\Debug\netcoreapp2.2\CinemaProjectApi.runtimeconfig.json
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoAPI\bin\Debug\netcoreapp2.2\CinemaProjectApi.runtimeconfig.dev.json
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoAPI\bin\Debug\netcoreapp2.2\CinemaProjectApi.dll
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoAPI\bin\Debug\netcoreapp2.2\CinemaProjectApi.pdb
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoAPI\bin\Debug\netcoreapp2.2\CinemaProjectModels.dll
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoAPI\bin\Debug\netcoreapp2.2\CinemaProjectModels.pdb
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoAPI\obj\Debug\netcoreapp2.2\CinemaProjectApi.csprojAssemblyReference.cache
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoAPI\obj\Debug\netcoreapp2.2\CinemaProjectApi.csproj.CoreCompileInputs.cache
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoAPI\obj\Debug\netcoreapp2.2\CinemaProjectApi.RazorAssemblyInfo.cache
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoAPI\obj\Debug\netcoreapp2.2\CinemaProjectApi.RazorAssemblyInfo.cs
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoAPI\obj\Debug\netcoreapp2.2\CinemaProjectApi.AssemblyInfoInputs.cache
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoAPI\obj\Debug\netcoreapp2.2\CinemaProjectApi.AssemblyInfo.cs
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoAPI\obj\Debug\netcoreapp2.2\CinemaProjectApi.RazorTargetAssemblyInfo.cache
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoAPI\obj\Debug\netcoreapp2.2\CinemaProjectApi.csproj.CopyComplete
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoAPI\obj\Debug\netcoreapp2.2\CinemaProjectApi.dll
+D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoAPI\obj\Debug\netcoreapp2.2\CinemaProjectApi.pdb

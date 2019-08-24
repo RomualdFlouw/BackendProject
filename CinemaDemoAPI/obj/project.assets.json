@@ -3121,6 +3121,19 @@
           }
         }
       },
+      "Swagger/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.Formatters.Json": "1.0.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/Swashbuckle.Swagger.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Swashbuckle.Swagger.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4721,7 +4734,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "CinemaDemoModels/1.0.0": {
+      "CinemaProjectModels/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
@@ -4729,10 +4742,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6"
         },
         "compile": {
-          "bin/placeholder/CinemaDemoModels.dll": {}
+          "bin/placeholder/CinemaProjectModels.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CinemaDemoModels.dll": {}
+          "bin/placeholder/CinemaProjectModels.dll": {}
         }
       }
     }
@@ -8405,6 +8418,19 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Swagger/1.0.0": {
+      "sha512": "iOhbrhPbBpvvQOv63lgC669tti+6Tt5bW7QZkoNqFMc1WkqhBEehnOkAPKK+7s8SGAQa5uLhUU41E/wAFMvmsA==",
+      "type": "package",
+      "path": "swagger/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net451/_._",
+        "lib/netstandard1.6/Swashbuckle.Swagger.dll",
+        "swagger.1.0.0.nupkg.sha512",
+        "swagger.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -12945,19 +12971,20 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "CinemaDemoModels/1.0.0": {
+    "CinemaProjectModels/1.0.0": {
       "type": "project",
-      "path": "../CinemaDemoModels/CinemaDemoModels.csproj",
-      "msbuildProject": "../CinemaDemoModels/CinemaDemoModels.csproj"
+      "path": "../CinemaDemoModels/CinemaProjectModels.csproj",
+      "msbuildProject": "../CinemaDemoModels/CinemaProjectModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "CinemaDemoModels >= 1.0.0",
+      "CinemaProjectModels >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3",
+      "Swagger >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12968,11 +12995,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoAPI\\CinemaDemoAPI.csproj",
-      "projectName": "CinemaDemoAPI",
-      "projectPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoAPI\\CinemaDemoAPI.csproj",
+      "projectUniqueName": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoAPI\\CinemaProjectApi.csproj",
+      "projectName": "CinemaProjectApi",
+      "projectPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoAPI\\CinemaProjectApi.csproj",
       "packagesPath": "C:\\Users\\Romuald\\.nuget\\packages\\",
-      "outputPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoAPI\\obj\\",
+      "outputPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -12993,8 +13020,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\CinemaDemoModels.csproj": {
-              "projectPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\CinemaDemoModels.csproj"
+            "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\CinemaProjectModels.csproj": {
+              "projectPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\CinemaProjectModels.csproj"
             }
           }
         }
@@ -13028,6 +13055,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[2.2.3, )"
+          },
+          "Swagger": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [

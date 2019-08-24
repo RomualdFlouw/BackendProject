@@ -7,12 +7,3 @@ D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoModels\obj\Debug\netcoreapp2.2\Cin
 D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoModels\obj\Debug\netcoreapp2.2\CinemaDemoModels.dll
 D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoModels\obj\Debug\netcoreapp2.2\CinemaDemoModels.pdb
 D:\School\ASP.NET\2.LABO\CinemaDemo\CinemaDemoModels\obj\Debug\netcoreapp2.2\CinemaDemoModels.csprojAssemblyReference.cache
-D:\School\ASP.NET\2.LABO\BackendProject\CinemaDemoModels\bin\Debug\netcoreapp2.2\CinemaDemoModels.deps.json
-D:\School\ASP.NET\2.LABO\BackendProject\CinemaDemoModels\bin\Debug\netcoreapp2.2\CinemaDemoModels.dll
-D:\School\ASP.NET\2.LABO\BackendProject\CinemaDemoModels\bin\Debug\netcoreapp2.2\CinemaDemoModels.pdb
-D:\School\ASP.NET\2.LABO\BackendProject\CinemaDemoModels\obj\Debug\netcoreapp2.2\CinemaDemoModels.csprojAssemblyReference.cache
-D:\School\ASP.NET\2.LABO\BackendProject\CinemaDemoModels\obj\Debug\netcoreapp2.2\CinemaDemoModels.csproj.CoreCompileInputs.cache
-D:\School\ASP.NET\2.LABO\BackendProject\CinemaDemoModels\obj\Debug\netcoreapp2.2\CinemaDemoModels.AssemblyInfoInputs.cache
-D:\School\ASP.NET\2.LABO\BackendProject\CinemaDemoModels\obj\Debug\netcoreapp2.2\CinemaDemoModels.AssemblyInfo.cs
-D:\School\ASP.NET\2.LABO\BackendProject\CinemaDemoModels\obj\Debug\netcoreapp2.2\CinemaDemoModels.dll
-D:\School\ASP.NET\2.LABO\BackendProject\CinemaDemoModels\obj\Debug\netcoreapp2.2\CinemaDemoModels.pdb

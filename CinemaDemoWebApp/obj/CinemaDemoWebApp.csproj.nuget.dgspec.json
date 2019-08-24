@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoWebApp\\CinemaDemoWebApp.csproj": {}
+    "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoWebApp\\CinemaDemoWebApp.csproj": {}
   },
   "projects": {
-    "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\CinemaDemoModels.csproj": {
+    "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\CinemaProjectModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\CinemaDemoModels.csproj",
-        "projectName": "CinemaDemoModels",
-        "projectPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\CinemaDemoModels.csproj",
+        "projectUniqueName": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\CinemaProjectModels.csproj",
+        "projectName": "CinemaProjectModels",
+        "projectPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\CinemaProjectModels.csproj",
         "packagesPath": "C:\\Users\\Romuald\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\obj\\",
+        "outputPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -66,14 +66,14 @@
         }
       }
     },
-    "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoWebApp\\CinemaDemoWebApp.csproj": {
+    "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoWebApp\\CinemaDemoWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoWebApp\\CinemaDemoWebApp.csproj",
+        "projectUniqueName": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoWebApp\\CinemaDemoWebApp.csproj",
         "projectName": "CinemaDemoWebApp",
-        "projectPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoWebApp\\CinemaDemoWebApp.csproj",
+        "projectPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoWebApp\\CinemaDemoWebApp.csproj",
         "packagesPath": "C:\\Users\\Romuald\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoWebApp\\obj\\",
+        "outputPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -94,8 +94,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\CinemaDemoModels.csproj": {
-                "projectPath": "D:\\School\\ASP.NET\\2.LABO\\BackendProject\\CinemaDemoModels\\CinemaDemoModels.csproj"
+              "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\CinemaProjectModels.csproj": {
+                "projectPath": "D:\\School\\ASP.NET\\2.LABO\\CinemaDemo\\CinemaDemoModels\\CinemaProjectModels.csproj"
               }
             }
           }
