@@ -1,0 +1,60 @@
+﻿@model List<CinemaDemoModels.Models.Ticket>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>All Tickets</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                TicketId
+            </th>
+            <th>
+                SeatId
+            </th>
+            <th>
+                User Id
+            </th>
+            <th>
+                MovieRoomId
+            </th>
+            <th>
+                MovieId
+            </th>
+            <th>
+                MoviePlaytime
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SeatId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AspNetUserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MovieRoomId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MovieRoomMovieId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MovieRoomPlayTime)
+            </td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

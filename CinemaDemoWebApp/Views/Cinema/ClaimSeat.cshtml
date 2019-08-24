@@ -1,0 +1,48 @@
+﻿@model CinemaDemoWebApp.ViewModels.TicketsViewModel;
+
+@{
+    ViewData["Title"] = "Seats Reservation";
+}
+
+<h1>Zaal @Model.room.Nr</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                ZetelNummer
+            </th>
+            <th>
+                ZetelRij
+            </th>
+            <th>
+                Reserveren
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--Model.Seats.OrderBy(o => o.RowNr).OrderBy(l => l.Nr)-->
+        @foreach (var item in Model.room.Seats.OrderBy(o => o.Nr).ToList().OrderBy(t => t.RowNr))
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nr)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RowNr)
+                </td>
+                <td>
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <p>u bent niet ingelogd en kan daarom geen films reserveren</p>
+                    }
+                    else
+                    {
+                        <a asp-action="SeatDetails" asp-route-user="@User.Identity.Name" asp-route-SeatId="@item.Id" asp-route-MovieRoomId="@Model.MovieRoomId" asp-route-RoomId="@Model.room.Id" asp-route-MovieId="@Model.MovieId" asp-route-Playtime="@Model.Playtime">
+                            Reserveren
+                        </a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

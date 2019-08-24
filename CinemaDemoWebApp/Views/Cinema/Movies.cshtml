@@ -1,0 +1,52 @@
+﻿@model CinemaDemoModels.Models.Cinema
+@{
+    ViewData["Title"] = "Movies";
+}
+
+<h1>@Model.Name</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Movie Name
+                    </th>
+                    <th>
+                        Image
+                    </th>
+                    <th>
+                        ShowTime
+                    </th>
+                    <th>
+                        Duration
+                    </th>
+                    <th>
+                        ZaalNummer
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Rooms)
+                {
+                    @foreach (var movieRoom in item.MovieRooms)
+                    {
+                <tr>
+                    <td>
+                        <a asp-action="ClaimSeat" asp-route-roomId="@item.Id" asp-route-MovieRoomId="@movieRoom.Id" asp-route-MovieId="@movieRoom.MovieId" asp-route-Playtime="@movieRoom.PlayTime">@Html.DisplayFor(modelItem => movieRoom.Movie.Name)</a>
+                    </td>
+                    <td>
+                        <img height="20%" width="auto" src="@Html.DisplayFor(modelItem => movieRoom.Movie.ImageUrl)">
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => movieRoom.PlayTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => movieRoom.Movie.Duration)
+                    </td>
+                    <td>
+                        zaal @Html.DisplayFor(modelItem => item.Nr)
+                    </td>
+                </tr>
+                    }
+                }
+                </tbody>
+        </table>
